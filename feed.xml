@@ -3,10 +3,48 @@
     <title>Calm code. Clear mind.</title>
     <link href="https://ss-abramchuk.me/feed.xml" rel="self" />
     <link href="https://ss-abramchuk.me" />
-    <updated>1970-01-01T03:00:00+03:00</updated>
+    <updated>2025-06-28T19:31:20+03:00</updated>
     <author>
         <name>Sergey Abramchuk</name>
     </author>
     <id>https://ss-abramchuk.me</id>
 
+    <entry>
+        <title>Keep Your Xcode Console Clean</title>
+        <author>
+            <name>Sergey Abramchuk</name>
+        </author>
+        <link href="https://ss-abramchuk.me/keep-your-xcode-console-clean/"/>
+        <id>https://ss-abramchuk.me/keep-your-xcode-console-clean/</id>
+            <category term="Xcode"/>
+            <category term="Tips"/>
+
+        <updated>2025-06-28T19:21:52+03:00</updated>
+            <summary>
+                <![CDATA[
+                    In large projects, the Xcode console often gets flooded with all kinds of log messages. This makes it difficult to spot the messages you actually&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+  <p>
+    In large projects, the Xcode console often gets flooded with all kinds of log messages. This makes it difficult to spot the messages you actually care about.&nbsp;Fortunately, there’s a simple trick to reduce the noise and focus only on the relevant output.
+  </p>
+
+  <p>
+    Just right-click on any message you want to hide and choose “Hide Similar Items” from the context menu.&nbsp;A submenu will appear, letting you choose how to filter — by process, subsystem, category, etc.
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://ss-abramchuk.me/media/posts/4/ezgif-18eaf31709a567.gif" height="226" width="800" alt="" >
+      
+    </figure>
+
+  <p>
+    This way, you can keep your console clean and make debugging much more efficient.
+  </p>
+            ]]>
+        </content>
+    </entry>
 </feed>

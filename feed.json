@@ -9,5 +9,21 @@
         "name": "Sergey Abramchuk"
     },
     "items": [
+        {
+            "id": "https://ss-abramchuk.me/keep-your-xcode-console-clean/",
+            "url": "https://ss-abramchuk.me/keep-your-xcode-console-clean/",
+            "title": "Keep Your Xcode Console Clean",
+            "summary": "In large projects, the Xcode console often gets flooded with all kinds of log messages. This makes it difficult to spot the messages you actually&hellip;",
+            "content_html": "\n  <p>\n    In large projects, the Xcode console often gets flooded with all kinds of log messages. This makes it difficult to spot the messages you actually care about.&nbsp;Fortunately, there’s a simple trick to reduce the noise and focus only on the relevant output.\n  </p>\n\n  <p>\n    Just right-click on any message you want to hide and choose “Hide Similar Items” from the context menu.&nbsp;A submenu will appear, letting you choose how to filter — by process, subsystem, category, etc.\n  </p>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://ss-abramchuk.me/media/posts/4/ezgif-18eaf31709a567.gif\" height=\"226\" width=\"800\" alt=\"\" >\n      \n    </figure>\n\n  <p>\n    This way, you can keep your console clean and make debugging much more efficient.\n  </p>",
+            "author": {
+                "name": "Sergey Abramchuk"
+            },
+            "tags": [
+                   "Xcode",
+                   "Tips"
+            ],
+            "date_published": "2025-06-28T19:21:52+03:00",
+            "date_modified": "2025-06-28T19:31:20+03:00"
+        }
     ]
 }
